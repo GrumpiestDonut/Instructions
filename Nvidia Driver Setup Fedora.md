@@ -43,6 +43,7 @@ Step 11. Click Next and Finish to close the window
 <img width="711" height="674" alt="image" src="https://github.com/user-attachments/assets/e62e1174-74cc-4a4e-8354-499b5c5a88df" />
 
 ## Setting Up RPM Fusion
+### RPM Fusion is a third party repository for proprietary software, like STEAM, DISCORD, and NVIDIA Drivers.
 
 Step 12. Ok, open Konsole, and open Firefox. Navigate to RPMFusion.org
 <img width="1826" height="1256" alt="image" src="https://github.com/user-attachments/assets/ca967449-de4a-424f-9518-4f9715efcdda" />
@@ -50,13 +51,27 @@ Step 12. Ok, open Konsole, and open Firefox. Navigate to RPMFusion.org
 Step 13. Click on Enable RPM Fusion on your system link 
 <img width="793" height="530" alt="image" src="https://github.com/user-attachments/assets/88f5746c-20cf-4288-992c-7dd2660fc044" />
 
-Step 14. You will scroll down to Command Line Setup using rpm. You will find a line to enter into Konsole. Copy and Paste it into Konsole:
+Step 14. You will scroll down to Command Line Setup using rpm. You will find a line to enter into Konsole. 
+
+<img width="2154" height="309" alt="image" src="https://github.com/user-attachments/assets/c00725fa-6936-481b-adef-1dae36965f59" />
+
+Copy* and Paste* it into Konsole and press ENTER:
 ```bash
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 ```
 *Note that in Linux Copy and Paste CONTROL+C works in all places but the terminal. To paste into terminal you have to hit CONTROL+SHIFT+V not Control+V as it will create an error. Also if you ever needed to copy from the terminal you would hit CONTROL+SHIFT+C
 
+<img width="1056" height="770" alt="image" src="https://github.com/user-attachments/assets/913939e7-f52e-4aec-b6d9-e478078c542c" />
 
-<img width="2154" height="309" alt="image" src="https://github.com/user-attachments/assets/c00725fa-6936-481b-adef-1dae36965f59" />
+Step 15. Enter your password and hit ENTER"
+<img width="1083" height="781" alt="image" src="https://github.com/user-attachments/assets/ec7c8016-4bd9-495a-83d2-a28222a16e9d" />
+
+Step 16. Review that its adding the two repositories and press y and ENTER:
+<img width="1109" height="870" alt="image" src="https://github.com/user-attachments/assets/f3e01ecd-901f-4fad-a5e7-9547e0cc999b" />
+
+Should say Complete! when done, and show the command prompt
+<img width="1002" height="804" alt="image" src="https://github.com/user-attachments/assets/8419c983-fc97-4d65-8282-42d1bbb7bf0c" />
+
+## Setting Up Nvidia Driver
 
 
