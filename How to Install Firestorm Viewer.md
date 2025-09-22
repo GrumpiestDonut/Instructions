@@ -68,4 +68,6 @@ Step 15. Check the box next to Run using dedicated graphics card and press Save
 Step 16. Congrats Firestorm is ready for use. 
 <img width="1041" height="776" alt="image" src="https://github.com/user-attachments/assets/a7680599-49e4-4749-8787-4250537f7670" />
 
+Step 17. You can delete any files in your Downloads Folder as they are no longer needed. 
+<img width="862" height="658" alt="image" src="https://github.com/user-attachments/assets/c2bc0c4d-c8fa-4cb2-8928-6aef800cfd0b" />
 
