@@ -18,7 +18,8 @@ Step 4. You will get a list of everything it will install.. once it asks. Press 
 <img width="981" height="668" alt="image" src="https://github.com/user-attachments/assets/2a8daff0-ed7f-46a7-a725-9544e874109e" />
 
 Step5. You may be prompted to add keys to your OpenPGP this is normal, just press y and enter anytime this happens.  
-<img width="980" height="664" alt="image" src="https://github.com/user-attachments/assets/f6340a11-be16-4950-a368-bb742dbee81b" />
+<img width="921" height="594" alt="image" src="https://github.com/user-attachments/assets/eb7ff9de-8e30-40f4-b2c2-67944accc403" />
+
 
 Step 6. You should see that this is done. It will say complete, and show the command prompt again. 
 <img width="943" height="640" alt="image" src="https://github.com/user-attachments/assets/ee116faa-513a-4281-ae0c-18453e052858" />
