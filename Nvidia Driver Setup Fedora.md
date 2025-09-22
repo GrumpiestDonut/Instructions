@@ -74,4 +74,65 @@ Should say Complete! when done, and show the command prompt
 
 ## Setting Up Nvidia Driver
 
+Step 17. Scroll up the RPM Fusion page to Howto and click it. 
+<img width="874" height="446" alt="image" src="https://github.com/user-attachments/assets/4da40e1d-3dec-411e-ba57-96bde5af2982" />
+
+
+Step 18. Click on Howto/NVIDIA. This will contain instructions for NVIDIA Cards from long ago and other versions of Fedora. 
+<img width="661" height="689" alt="image" src="https://github.com/user-attachments/assets/40c5764a-825f-43fa-a795-7f01828b46d5" />
+
+
+Step 19. Your Card is like made in the last 10 years you are probably on the Current Geforce Section of the page. You will find instructions here to enter. You have already done the update earlier in this process so you can ignore the: 
+```bash
+sudo dnf update -y
+```
+As you already did it. 
+
+<img width="1203" height="385" alt="image" src="https://github.com/user-attachments/assets/2c54a8a4-0776-4364-be40-7e791fead21a" />
+
+
+Step 20. You should enter the next line though of the RPM Fusion Instructions:
+```bash
+sudo dnf install akmod-nvidia
+```
+This is the actual driver.
+
+You can also install:
+```bash
+sudo dnf install xorg-x11-drv-nvidia-cuda
+```
+However this is OPTIONAL. It is used for AI Processes. If unsure you should install both by combining the commands like this:
+```bash
+sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda
+```
+<img width="786" height="165" alt="image" src="https://github.com/user-attachments/assets/9e389f26-d325-42ff-98fa-0d6192146688" />
+
+Step 21. You will be prompted for your password and asked if its ok to install the packages obviously type y and ENTER till its completed
+<img width="786" height="165" alt="image" src="https://github.com/user-attachments/assets/65237066-9e2c-4d43-92be-cbb7a87f6d21" />
+
+Step 22. When the install is complete. **DO NOT REBOOT OR TURN OFF POWER**. Go to Konsole and type:
+```bash
+sudo dnf install btop
+```
+This will install a program to monitor the system called BTOP.
+<img width="786" height="165" alt="image" src="https://github.com/user-attachments/assets/135594e8-bb50-490d-851f-5f00957e254f" />
+
+Step 23. Once installed type btop in consol to run it. 
+```bash
+btop
+```
+Should look like this:
+<img width="2559" height="1318" alt="image" src="https://github.com/user-attachments/assets/77f0543e-c851-454f-8e92-9bd76ad529b1" />
+
+Step 24. After a nvidia install, or a Kernel update. You should always look at btop. 
+<img width="1416" height="1229" alt="image" src="https://github.com/user-attachments/assets/801932d1-eb16-4e98-a14f-060fa95327ea" />
+**If you see the CPU being used heavily, and a process where the user is AKMOD, running do not REBOOT till it is completed. Once you no longer see the AKMOD programs running and the CPU is idle, then it is safe to reboot. If you reboot before hand or lose power you will screw up the driver completion.**
+
+Step 25. If everything is good in btop. You can press Q to quit and type:
+```bash
+reboot
+```
+Into the Konsole to restart the PC. If you did it correct you should return to the desktop. 
+
+
 
