@@ -46,3 +46,17 @@ Step 11. Click Next and Finish to close the window
 
 Step 12. Ok, open Konsole, and open Firefox. Navigate to RPMFusion.org
 <img width="1826" height="1256" alt="image" src="https://github.com/user-attachments/assets/ca967449-de4a-424f-9518-4f9715efcdda" />
+
+Step 13. Click on Enable RPM Fusion on your system link 
+<img width="793" height="530" alt="image" src="https://github.com/user-attachments/assets/88f5746c-20cf-4288-992c-7dd2660fc044" />
+
+Step 14. You will scroll down to Command Line Setup using rpm. You will find a line to enter into Konsole. Copy and Paste it into Konsole:
+```bash
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+```
+*Note that in Linux Copy and Paste CONTROL+C works in all places but the terminal. To paste into terminal you have to hit CONTROL+SHIFT+V not Control+V as it will create an error. Also if you ever needed to copy from the terminal you would hit CONTROL+SHIFT+C
+
+
+<img width="2154" height="309" alt="image" src="https://github.com/user-attachments/assets/c00725fa-6936-481b-adef-1dae36965f59" />
+
+
