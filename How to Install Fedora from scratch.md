@@ -1,4 +1,4 @@
-# How to Install Fedora KDE on your PC from scratch.
+# How to Install Fedora KDE on your PC from scratch. - Drafting
 
 ## Creating Installation Media
 **Step 1.** Open your browser and navigate to  https://fedoraproject.org/kde/download
