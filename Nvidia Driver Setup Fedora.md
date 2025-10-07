@@ -45,6 +45,7 @@ This screen should pop-up
 <img width="702" height="667" alt="image" src="https://github.com/user-attachments/assets/c8e9ac6c-1b82-413e-8ebb-931b25631f01" />
 
 **Step 10.** Enter your password.
+
 <img width="769" height="688" alt="image" src="https://github.com/user-attachments/assets/3c218012-6212-4da3-8fd0-7e3bfe98289c" />
 
 **Step 11.** Click Next and Finish to close the window
